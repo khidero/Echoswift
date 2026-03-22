@@ -71,8 +71,8 @@ export const Hero: React.FC = () => {
           <div className="lg:col-span-5 animate-fade-in" style={{animationDelay: '0.5s'}}>
             <div className="relative aspect-[4/5] overflow-hidden rounded-xl shadow-lg">
               <img 
-                src="https://images.unsplash.com/photo-1617817547332-3a0020be7030?w=800&h=1000&fit=crop&q=80"
-                alt="Professional junk removal truck being loaded"
+                src="https://images.unsplash.com/photo-1530587191325-3db32d826c18?w=800&h=1000&fit=crop&q=80"
+                alt="Eco-friendly waste management and recycling"
                 className="w-full h-full object-cover"
               />
               

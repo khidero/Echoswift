@@ -33,19 +33,25 @@ export const Navbar: React.FC = () => {
   ];
 
   const serviceItems = [
-    { name: 'Residential Junk Removal', desc: 'Home cleanouts and decluttering', path: '/services/residential' },
-    { name: 'Commercial Services', desc: 'Office and retail space clearing', path: '/services/commercial' },
-    { name: 'Construction Debris', desc: 'Post-construction cleanup', path: '/services/construction' },
-    { name: 'E-Waste & Appliance Recycling', desc: 'Responsible electronics disposal', path: '/services/e-waste' },
+    { name: 'Donation Services', desc: 'Item donation with community focus', path: '/services/donation-services' },
+    { name: 'Furniture Donation', desc: 'Household & office furniture reuse', path: '/services/furniture-donation' },
+    { name: 'Appliance Management', desc: 'Responsible recycling & donation', path: '/services/appliance-management' },
+    { name: 'Clean-Out Services', desc: 'Property & estate clean-outs', path: '/services/clean-out-services' },
+    { name: 'Waste Management', desc: 'Eco-friendly waste disposal', path: '/services/waste-management' },
+    { name: 'Commercial Services', desc: 'Office & business solutions', path: '/services/commercial-services' },
   ];
 
   const handleLinkClick = (path: string) => {
     setIsMenuOpen(false);
     if (path.startsWith('/#')) {
       const hash = path.substring(2);
-      const element = document.getElementById(hash);
-      if (element) {
-        element.scrollIntoView({ behavior: 'smooth' });
+      if (location.pathname === '/') {
+        const element = document.getElementById(hash);
+        if (element) {
+          element.scrollIntoView({ behavior: 'smooth' });
+        }
+      } else {
+        navigate('/' + '#' + hash);
       }
     } else {
       navigate(path);
@@ -113,9 +119,9 @@ export const Navbar: React.FC = () => {
                       <span className="absolute -bottom-2 left-0 w-0 h-1 transition-all duration-300 group-hover:w-full bg-emerald-600"></span>
                     </button>
                     
-                    <div className={`absolute top-full left-1/2 -translate-x-1/2 mt-4 w-[500px] bg-white shadow-2xl border border-gray-200 rounded-xl transition-all duration-300 ${showServicesMega ? 'opacity-100 visible translate-y-0' : 'opacity-0 invisible -translate-y-4'}`}>
+                    <div className={`absolute top-full left-1/2 -translate-x-1/2 mt-4 w-[680px] bg-white shadow-2xl border border-gray-200 rounded-xl transition-all duration-300 ${showServicesMega ? 'opacity-100 visible translate-y-0' : 'opacity-0 invisible -translate-y-4'}`}>
                       <div className="p-6">
-                        <div className="grid grid-cols-2 gap-4">
+                        <div className="grid grid-cols-3 gap-3">
                           {serviceItems.map((item) => (
                             <button
                               key={item.name}
@@ -163,36 +169,42 @@ export const Navbar: React.FC = () => {
       </nav>
 
       <div 
-        className={`fixed top-[72px] left-0 right-0 bg-white shadow-lg z-[50] transition-all duration-300 ease-out md:hidden ${
-          isMenuOpen ? 'opacity-100 visible translate-y-0' : 'opacity-0 invisible -translate-y-4'
+        className={`fixed inset-0 top-0 bg-white z-[50] transition-all duration-400 ease-out md:hidden ${
+          isMenuOpen ? 'opacity-100 visible translate-x-0' : 'opacity-0 invisible translate-x-full'
         }`}
       >
-        <nav className="px-6 py-6">
-          <div className="space-y-1">
-            {navLinks.map((link) => (
-              <div key={link.name}>
+        <div className="flex flex-col h-full pt-20 pb-8 px-6 overflow-y-auto">
+          
+          <div className="space-y-1 mt-4">
+            {navLinks.map((link, idx) => (
+              <div key={link.name} style={{ transitionDelay: isMenuOpen ? `${idx * 50}ms` : '0ms' }}>
                 {link.hasMega ? (
                   <div>
                     <button
                       onClick={() => setMobileServicesOpen(!mobileServicesOpen)}
-                      className="w-full text-center py-3 text-sm font-bold uppercase tracking-wider text-gray-900 hover:text-emerald-600 transition-colors flex items-center justify-center gap-2"
+                      className="w-full flex items-center justify-between py-4 border-b border-gray-100 group"
                     >
-                      <span>{link.name}</span>
-                      <ChevronDown size={14} className={`transition-transform duration-300 ${mobileServicesOpen ? 'rotate-180' : ''}`} />
+                      <span className="text-lg font-black text-gray-900 group-hover:text-emerald-600 transition-colors">{link.name}</span>
+                      <ChevronDown size={20} className={`text-gray-400 transition-transform duration-300 ${mobileServicesOpen ? 'rotate-180' : ''}`} />
                     </button>
                     
-                    <div className={`overflow-hidden transition-all duration-300 ${mobileServicesOpen ? 'max-h-[400px] opacity-100' : 'max-h-0 opacity-0'}`}>
-                      <div className="py-2 space-y-1">
-                        {serviceItems.map((item) => (
+                    <div className={`overflow-hidden transition-all duration-300 ${mobileServicesOpen ? 'max-h-[600px] opacity-100' : 'max-h-0 opacity-0'}`}>
+                      <div className="py-3 space-y-1">
+                        {serviceItems.map((item, sIdx) => (
                           <button
                             key={item.name}
                             onClick={() => {
                               setMobileServicesOpen(false);
                               handleLinkClick(item.path);
                             }}
-                            className="w-full text-center py-2 text-xs text-gray-600 hover:text-emerald-600 transition-colors"
+                            className="w-full text-left py-3 px-4 rounded-lg hover:bg-gray-50 transition-colors group flex items-center gap-3"
+                            style={{ transitionDelay: mobileServicesOpen ? `${sIdx * 30}ms` : '0ms' }}
                           >
-                            {item.name}
+                            <div className="w-2 h-2 rounded-full bg-emerald-500 flex-shrink-0"></div>
+                            <div>
+                              <div className="text-sm font-bold text-gray-900 group-hover:text-emerald-600 transition-colors">{item.name}</div>
+                              <div className="text-xs text-gray-500 mt-0.5">{item.desc}</div>
+                            </div>
                           </button>
                         ))}
                       </div>
@@ -201,35 +213,41 @@ export const Navbar: React.FC = () => {
                 ) : (
                   <button
                     onClick={() => handleLinkClick(link.path)}
-                    className="w-full text-center py-3 text-sm font-bold uppercase tracking-wider text-gray-900 hover:text-emerald-600 transition-colors"
+                    className="w-full flex items-center py-4 border-b border-gray-100 group"
                   >
-                    {link.name}
+                    <span className="text-lg font-black text-gray-900 group-hover:text-emerald-600 transition-colors">{link.name}</span>
                   </button>
                 )}
               </div>
             ))}
           </div>
-          
-          <div className="mt-6 pt-6 border-t border-gray-200">
+
+          <div className="mt-auto pt-8 space-y-4">
+            <a
+              href="tel:+17205551234"
+              className="flex items-center justify-center gap-3 w-full py-4 bg-gray-900 text-white font-bold text-sm uppercase tracking-wider rounded-xl hover:bg-gray-800 transition-colors"
+            >
+              <span>Call (720) 555-1234</span>
+            </a>
             <button
               onClick={() => {
                 setIsMenuOpen(false);
                 handleLinkClick('/#contact');
               }}
-              className="w-full py-3 bg-gradient-to-r from-emerald-500 to-teal-600 text-white text-sm font-bold uppercase tracking-wider hover:from-emerald-600 hover:to-teal-700 transition-colors rounded-lg"
+              className="w-full py-4 bg-emerald-600 text-white text-sm font-bold uppercase tracking-wider hover:bg-emerald-700 transition-colors rounded-xl"
             >
               Get A Quote
             </button>
           </div>
-        </nav>
-      </div>
 
-      <div 
-        className={`fixed inset-0 bg-black/20 z-[45] transition-opacity duration-300 md:hidden ${
-          isMenuOpen ? 'opacity-100 visible' : 'opacity-0 invisible'
-        }`}
-        onClick={() => setIsMenuOpen(false)}
-      />
+          <div className="mt-6 pt-4 border-t border-gray-100 text-center">
+            <div className="flex items-center justify-center gap-1.5 text-gray-500">
+              <MapPin size={14} />
+              <span className="text-xs font-bold uppercase tracking-wider">Serving Denver & Surrounding Areas</span>
+            </div>
+          </div>
+        </div>
+      </div>
     </>
   );
 };
