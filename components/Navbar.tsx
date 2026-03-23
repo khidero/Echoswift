@@ -224,10 +224,10 @@ export const Navbar: React.FC = () => {
 
           <div className="mt-auto pt-8 space-y-4">
             <a
-              href="tel:+17205551234"
+              href="tel:+13036672706"
               className="flex items-center justify-center gap-3 w-full py-4 bg-gray-900 text-white font-bold text-sm uppercase tracking-wider rounded-xl hover:bg-gray-800 transition-colors"
             >
-              <span>Call (720) 555-1234</span>
+              <span>Call (303) 667-2706</span>
             </a>
             <button
               onClick={() => {
