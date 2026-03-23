@@ -34,7 +34,7 @@ export const Hero: React.FC = () => {
             </h1>
             
             <p className="text-xl text-gray-600 mb-8 max-w-xl leading-relaxed animate-slide-up" style={{animationDelay: '0.2s'}}>
-              Professional waste management focused on reducing landfill impact. We prioritize donation, reuse, and recycling whenever possible.
+              Same-day junk removal, furniture pickup, cleanouts, and hauling services across Denver Metro. Fast, affordable, and reliable.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 mb-8 animate-slide-up" style={{animationDelay: '0.3s'}}>
