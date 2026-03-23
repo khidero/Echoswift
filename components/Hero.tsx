@@ -30,7 +30,7 @@ export const Hero: React.FC = () => {
             </div>
 
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-black text-gray-900 tracking-tight mb-6 leading-tight animate-slide-up" style={{animationDelay: '0.1s'}}>
-              Responsible Waste Management & Donation Services
+              Fast & Reliable Junk Removal in Denver Metro
             </h1>
             
             <p className="text-xl text-gray-600 mb-8 max-w-xl leading-relaxed animate-slide-up" style={{animationDelay: '0.2s'}}>
