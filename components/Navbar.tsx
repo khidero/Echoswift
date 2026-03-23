@@ -236,7 +236,7 @@ export const Navbar: React.FC = () => {
               }}
               className="w-full py-4 bg-emerald-600 text-white text-sm font-bold uppercase tracking-wider hover:bg-emerald-700 transition-colors rounded-xl"
             >
-              Get A Quote
+              Get A Free Quote
             </button>
           </div>
 
