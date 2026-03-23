@@ -62,8 +62,7 @@ const serviceDetails: Record<string, ServiceDetail> = {
       { question: 'How quickly can you pick up donations?', answer: 'We offer same-day and next-day pickup for most Denver Metro locations. Standard scheduling is within 2-3 business days.' }
     ],
     gallery: [
-      { url: 'https://images.unsplash.com/photo-1593113598332-cd288d649433?w=600&h=400&fit=crop&q=80', alt: 'Donation boxes ready for distribution', caption: 'Items sorted and ready for partner charities' },
-      { url: 'https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=600&h=400&fit=crop&q=80', alt: 'Community volunteers sorting donations', caption: 'Working with community volunteers' },
+       
       { url: 'https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?w=600&h=400&fit=crop&q=80', alt: 'Volunteers organizing donated items', caption: 'Organizing donations for local families' },
       { url: 'https://images.unsplash.com/photo-1532629345422-7515f3d16bb6?w=600&h=400&fit=crop&q=80', alt: 'Hands holding a donation box', caption: 'Every donation makes a difference' }
     ],
