@@ -8,7 +8,7 @@ const serviceItems = [
     slug: "junk-removal",
     icon: Trash,
     description: "Fast junk removal for homes and businesses across Denver Metro.",
-    image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=250&fit=crop&q=80"
+    image: "https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=400&h=250&fit=crop&q=80"
   },
   {
     title: "Cleanout Services",
