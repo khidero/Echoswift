@@ -32,14 +32,48 @@ export const Navbar: React.FC = () => {
     { name: 'Contact', path: '/#contact' },
   ];
 
-  const serviceItems = [
-    { name: 'Donation Services', desc: 'Item donation with community focus', path: '/services/donation-services' },
-    { name: 'Furniture Donation', desc: 'Household & office furniture reuse', path: '/services/furniture-donation' },
-    { name: 'Appliance Management', desc: 'Responsible recycling & donation', path: '/services/appliance-management' },
-    { name: 'Clean-Out Services', desc: 'Property & estate clean-outs', path: '/services/clean-out-services' },
-    { name: 'Waste Management', desc: 'Eco-friendly waste disposal', path: '/services/waste-management' },
-    { name: 'Commercial Services', desc: 'Office & business solutions', path: '/services/commercial-services' },
-  ];
+ const serviceItems = [
+  {
+    name: 'Junk Removal',
+    desc: 'Fast junk removal for homes and businesses across Denver Metro',
+    path: '/#services'
+  },
+  {
+    name: 'Cleanout Services',
+    desc: 'Garage, storage, office, and move-out cleanouts',
+    path: '/#services'
+  },
+  {
+    name: 'Furniture Removal',
+    desc: 'Couches, mattresses, desks, and bulk furniture pickup',
+    path: '/#services'
+  },
+  {
+    name: 'Commercial Junk Removal',
+    desc: 'Retail, office, and property cleanout services',
+    path: '/#services'
+  },
+  {
+    name: 'Property & Unit Cleanouts',
+    desc: 'In-unit trash-outs and turnover cleanups',
+    path: '/#services'
+  },
+  {
+    name: 'Donation Pickup',
+    desc: 'Reusable furniture and item pickup when eligible',
+    path: '/#services'
+  },
+  {
+    name: 'Service Areas',
+    desc: 'Denver, Aurora, Broomfield and surrounding cities',
+    path: '/#service-areas'
+  },
+  {
+    name: 'Compliance',
+    desc: 'Professional, insured, and responsible service',
+    path: '/#compliance'
+  },
+];
 
   const handleLinkClick = (path: string) => {
     setIsMenuOpen(false);
