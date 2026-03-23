@@ -73,7 +73,7 @@ export const Footer: React.FC = () => {
               </li>
               <li className="flex items-start gap-2">
                 <Mail size={16} className="text-gray-500 mt-1 flex-shrink-0" />
-                <span>sales@alnoumanfads.com</span>
+                <span>Sales@alnoumanfads.com</span>
               </li>
             </ul>
           </div>
