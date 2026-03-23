@@ -4,46 +4,46 @@ import { Home, Building2, Recycle, Trash, HardHat, Package } from 'lucide-react'
 
 const serviceItems = [
   {
-    title: "Donation Services",
-    slug: "donation-services",
-    icon: Home,
-    description: "We accept and manage donated items with a focus on reuse and community benefit. Scheduled pickup available.",
-    image: "https://images.unsplash.com/photo-1593113598332-cd288d649433?w=400&h=250&fit=crop&q=80"
-  },
-  {
-    title: "Furniture Donation",
-    slug: "furniture-donation",
-    icon: Package,
-    description: "Household and office furniture in good condition. Items prioritized for donation and reuse.",
-    image: "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=400&h=250&fit=crop&q=80"
-  },
-  {
-    title: "Appliance Management",
-    slug: "appliance-management",
-    icon: Recycle,
-    description: "Approved appliances and electronics. Responsible recycling and donation when possible.",
-    image: "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400&h=250&fit=crop&q=80"
-  },
-  {
-    title: "Clean-Out Services",
-    slug: "clean-out-services",
+    title: "Junk Removal",
+    slug: "junk-removal",
     icon: Trash,
-    description: "Property clean-outs with donation priority. Estate clearing and move-out services available.",
-    image: "https://images.unsplash.com/photo-1600585152220-90363fe7e115?w=400&h=250&fit=crop&q=80"
+    description: "Fast junk removal for homes and businesses across Denver Metro.",
+    image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=250&fit=crop&q=80"
   },
   {
-    title: "Waste Management",
-    slug: "waste-management",
+    title: "Cleanout Services",
+    slug: "cleanout-services",
     icon: HardHat,
-    description: "Professional waste management focused on reducing landfill impact through recycling and reuse.",
-    image: "https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?w=400&h=250&fit=crop&q=80"
+    description: "Garage, storage, office, and move-out cleanouts.",
+    image: "https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=400&h=250&fit=crop&q=80"
   },
   {
-    title: "Commercial Services",
-    slug: "commercial-services",
+    title: "Furniture Removal",
+    slug: "furniture-removal",
+    icon: Package,
+    description: "Couches, mattresses, desks, and bulk furniture pickup.",
+    image: "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=400&h=250&fit=crop&q=80"
+  },
+  {
+    title: "Commercial Junk Removal",
+    slug: "commercial-junk-removal",
     icon: Building2,
-    description: "Office furniture and equipment donation. Minimal disruption to your business operations.",
+    description: "Retail, office, and property cleanout services.",
     image: "https://images.unsplash.com/photo-1497366216548-37526070297c?w=400&h=250&fit=crop&q=80"
+  },
+  {
+    title: "Property & Unit Cleanouts",
+    slug: "property-cleanouts",
+    icon: Home,
+    description: "In-unit trash-outs and turnover cleanups.",
+    image: "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?w=400&h=250&fit=crop&q=80"
+  },
+  {
+    title: "Donation Pickup",
+    slug: "donation-pickup",
+    icon: Package,
+    description: "Reusable furniture and item pickup when eligible.",
+    image: "https://images.unsplash.com/photo-1593113598332-cd59a93c6132?w=400&h=250&fit=crop&q=80"
   }
 ];
 
@@ -60,12 +60,12 @@ export const Services: React.FC = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-end">
             <div>
               <h2 className="text-4xl md:text-5xl font-black text-gray-900 mb-4 leading-tight">
-                Donation & Waste Management
+                Junk Removal & Cleanout Services
               </h2>
             </div>
             <div>
               <p className="text-gray-600 text-lg">
-                Professional services focused on donation, reuse, and responsible waste management across Denver Metro.
+               Professional junk removal services for homes, apartments, offices, retail stores, and commercial properties across Denver Metro. Fast, reliable, and hassle-free cleanouts.
               </p>
             </div>
           </div>
