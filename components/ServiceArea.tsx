@@ -54,7 +54,7 @@ export const ServiceArea: React.FC = () => {
 
               <div className="space-y-4">
                 <a 
-                  href="tel:+17205551234"
+                  href="tel:+13036672706"
                   className="group flex items-center gap-4 bg-white hover:bg-gray-900 p-6 transition-all duration-300 border-2 border-transparent hover:border-white"
                 >
                   <div className="w-12 h-12 bg-gray-900 group-hover:bg-white flex items-center justify-center flex-shrink-0 transition-colors">
@@ -62,12 +62,12 @@ export const ServiceArea: React.FC = () => {
                   </div>
                   <div className="flex-1">
                     <div className="text-sm font-bold text-gray-500 group-hover:text-gray-400 mb-1 transition-colors">Call Us Now</div>
-                    <div className="text-xl font-black text-gray-900 group-hover:text-white transition-colors">(720) 555-1234</div>
+                    <div className="text-xl font-black text-gray-900 group-hover:text-white transition-colors">(303) 667-2706</div>
                   </div>
                 </a>
 
                 <a 
-                  href="mailto:info@echoswift.com"
+                  href="mailto:sales@alnoumanfads.com"
                   className="group flex items-center gap-4 bg-white hover:bg-gray-900 p-6 transition-all duration-300 border-2 border-transparent hover:border-white"
                 >
                   <div className="w-12 h-12 bg-gray-900 group-hover:bg-white flex items-center justify-center flex-shrink-0 transition-colors">
@@ -75,7 +75,7 @@ export const ServiceArea: React.FC = () => {
                   </div>
                   <div className="flex-1">
                     <div className="text-sm font-bold text-gray-500 group-hover:text-gray-400 mb-1 transition-colors">Email Us</div>
-                    <div className="text-xl font-black text-gray-900 group-hover:text-white transition-colors">info@echoswift.com</div>
+                    <div className="text-xl font-black text-gray-900 group-hover:text-white transition-colors">sales@alnoumanfads.com</div>
                   </div>
                 </a>
 
