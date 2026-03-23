@@ -92,10 +92,10 @@ export const Navbar: React.FC = () => {
                 </div>
               </div>
               <div className="flex flex-col">
-                <span className="text-xl font-black text-gray-900 leading-none tracking-tight">Echo Swift</span>
+                <span className="text-xl font-black text-gray-900 leading-none tracking-tight">ALNOUMAN FADS</span>
                 <div className="flex items-center gap-1.5 mt-0.5">
                   <div className="h-px w-3 bg-gray-900"></div>
-                  <span className="text-[8px] font-bold uppercase tracking-[0.2em] text-gray-500">Junk Removal</span>
+                  <span className="text-[8px] font-bold uppercase tracking-[0.2em] text-gray-500">Smart Junk Removal</span>
                 </div>
               </div>
             </div>
