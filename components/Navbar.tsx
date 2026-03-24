@@ -40,27 +40,27 @@ export const Navbar: React.FC = () => {
   },
   {
     name: 'Cleanout Services',
-    desc: 'Garage, storage, office, and move-out cleanouts',
+    desc: 'Garage, Storage, Office, and Move-out Cleanouts',
     path: '/#services'
   },
   {
     name: 'Furniture Removal',
-    desc: 'Couches, mattresses, desks, and bulk furniture pickup',
+    desc: 'Couches, Mattresses, Desks, and Bulk Furniture Pickup',
     path: '/#services'
   },
   {
     name: 'Commercial Junk Removal',
-    desc: 'Retail, office, and property cleanout services',
+    desc: 'Retail, Office, and Property Cleanout Services',
     path: '/#services'
   },
   {
     name: 'Property & Unit Cleanouts',
-    desc: 'In-unit trash-outs and turnover cleanups',
+    desc: 'In-unit Trash-outs and Turnover Cleanups',
     path: '/#services'
   },
   {
-    name: 'Donation Pickup',
-    desc: 'Reusable furniture and item pickup when eligible',
+    name: 'Free Furniture Pickup',
+    desc: 'Reusable Furniture Pickup when Eligible',
     path: '/#services'
   },
   {
