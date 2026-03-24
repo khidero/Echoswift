@@ -52,8 +52,8 @@ const serviceDetails: Record<string, ServiceDetail> = {
       { step: 'Distribution', detail: 'Donations are delivered to partner organizations and families in need.' },
       { step: 'Confirmation', detail: 'Receive documentation and confirmation of your donation\'s impact.' }
     ],
-    image:   'https://images.unsplash.com/photo-1581578731548-...'
-    secondaryImage: 'https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=800&h=600&fit=crop&q=80',
+    image:   'https://images.unsplash.com/photo-1604187351574-c75ca79f5807?w=800&h=600&fit=crop&q=80',
+    secondaryImage:  'https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=800&h=600&fit=crop&q=80',
     faqs: [
       { question: 'What items do you accept for donation?', answer: 'We accept furniture, clothing, household goods, electronics in working condition, appliances, sporting goods, books, and more. Items should be in usable condition. Contact us if you are unsure about a specific item.' },
       { question: 'Is there a fee for donation pickup?', answer: 'Pickup is free for qualifying donations that meet our condition standards. For mixed loads with both donation and disposal items, we provide a combined quote.' },
