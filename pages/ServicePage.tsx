@@ -52,8 +52,8 @@ const serviceDetails: Record<string, ServiceDetail> = {
       { step: 'Distribution', detail: 'Donations are delivered to partner organizations and families in need.' },
       { step: 'Confirmation', detail: 'Receive documentation and confirmation of your donation\'s impact.' }
     ],
-    image: 'https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=800&h=600&fit=crop&q=80',
-    secondaryImage: 'https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=800&h=600&fit=crop&q=80',
+    image:   'https://images.unsplash.com/photo-1581578731548-...'
+    secondaryImage: 'https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=800&h=600&fit=crop&q=80',
     faqs: [
       { question: 'What items do you accept for donation?', answer: 'We accept furniture, clothing, household goods, electronics in working condition, appliances, sporting goods, books, and more. Items should be in usable condition. Contact us if you are unsure about a specific item.' },
       { question: 'Is there a fee for donation pickup?', answer: 'Pickup is free for qualifying donations that meet our condition standards. For mixed loads with both donation and disposal items, we provide a combined quote.' },
@@ -63,9 +63,16 @@ const serviceDetails: Record<string, ServiceDetail> = {
     ],
     gallery: [
        
-      { url: 'https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?w=600&h=400&fit=crop&q=80', alt: 'Volunteers organizing donated items', caption: 'Organizing donations for local families' },
-      { url: 'https://images.unsplash.com/photo-1532629345422-7515f3d16bb6?w=600&h=400&fit=crop&q=80', alt: 'Hands holding a donation box', caption: 'Every donation makes a difference' }
-    ],
+     {
+  url: 'https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=800&h=600&fit=crop&q=80',
+  alt: 'Junk removal team clearing furniture from home',
+  caption: 'Furniture removal service'
+},
+{
+  url: 'https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=800&h=600&fit=crop&q=80',
+  alt: 'Clean empty space after junk removal',
+  caption: 'Cleanout service results'
+}
     relatedServices: ['furniture-donation', 'clean-out-services', 'commercial-services'],
     stats: [
       { value: '10,000+', label: 'Items Donated' },
