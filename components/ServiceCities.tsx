@@ -29,7 +29,7 @@ export const ServiceCities: React.FC = () => {
               <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
                 <div className="flex items-center gap-2 mb-2">
                   <MapPin size={24} className="text-white" />
-                  <span className="text-2xl font-black">50-Mile Radius</span>
+                  <span className="text-2xl font-black">80-Mile Radius</span>
                 </div>
                 <p className="text-sm text-gray-200">Covering the entire Denver metro area</p>
               </div>
