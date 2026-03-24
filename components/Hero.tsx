@@ -63,24 +63,20 @@ export const Hero: React.FC = () => {
               </div>
               <div className="flex items-center gap-2">
                 <CheckCircle2 size={20} className="text-gray-700" />
-                <span>Cleanouts & Furniture Removal</span>
+                <span>Cleanouts &amp; Furniture Removal</span>
               </div>
             </div>
           </div>
 
           <div className="lg:col-span-5 animate-fade-in" style={{animationDelay: '0.5s'}}>
             <div className="relative aspect-[4/5] overflow-hidden rounded-xl shadow-lg">
-              <img 
-                src=https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=800&h=1000&fit=crop&q=80"
-                alt="Junk removal and cleanout service in Denver"
-                className="w-full h-full object-cover"
-              />
+              <img src="https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=800&h=1000&fit=crop&q=80" alt="Junk removal and cleanout service in Denver" className="w-full h-full object-cover" />
               
               <div className="absolute inset-0 bg-gradient-to-t from-gray-900/80 to-transparent"></div>
               
               <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
                 <h3 className="text-2xl font-black mb-2">Alnouman FADS</h3>
-               <p className="text-sm text-gray-300">Junk Removal & Cleanout Services</p>
+               <p className="text-sm text-gray-300">Junk Removal &amp; Cleanout Services</p>
               </div>
             </div>
           </div>
