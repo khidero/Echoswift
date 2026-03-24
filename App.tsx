@@ -6,7 +6,6 @@ import { Services } from './components/Services';
 import { Process } from './components/Process';
 import { ServiceCities } from './components/ServiceCities';
 import { Gallery } from './components/Gallery';
-import { ServiceArea } from './components/ServiceArea';
 import { Footer } from './components/Footer';
 import { ServicePage } from './pages/ServicePage';
 
@@ -62,7 +61,6 @@ function HomePage() {
       <Process />
       <ServiceCities />
       <Gallery />
-      <ServiceArea />
     </>
   );
 }
