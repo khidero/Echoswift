@@ -69,9 +69,9 @@ export const Navbar: React.FC = () => {
     path: '/#service-areas'
   },
   {
-    name: 'Compliance',
-    desc: 'Professional, insured, and responsible service',
-    path: '/#compliance'
+    name: 'Cardboard Removal & Recycling',
+  desc: 'Cardboard pickup and eco-friendly recycling for homes and businesses',
+  path: '/#cardboard-removal'
   },
 ];
 
