@@ -40,10 +40,10 @@ export const ServiceCities: React.FC = () => {
           <div className="order-1 lg:order-2">
             <div className="mb-8">
               <h2 className="text-4xl md:text-5xl font-black text-gray-900 mb-4">
-                We serve your area
+              Denver & Surrounding Areas We Serve
               </h2>
               <p className="text-lg text-gray-600">
-                Professional junk removal across Denver and 30+ surrounding cities
+                Professional junk removal services across Denver and 30+ surrounding cities. Fast, reliable, same-day service available.
               </p>
             </div>
 
