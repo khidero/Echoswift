@@ -18,7 +18,10 @@ const steps = [
     2045 S Valentia St Unit 16, Denver, CO<br />
     By appointment only.
   </>
-), {,{
+),
+},
+{
+
     icon: CheckCircle2,
     title: "Wednesday Mattress Program",
     description: "Every Wednesday, used & sanitized mattresses are released at no cost. Limited availability. Must be claimed online."
