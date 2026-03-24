@@ -31,56 +31,7 @@ interface ServiceDetail {
 }
 
 const serviceDetails: Record<string, ServiceDetail> = {
-  'donation-services': {
-    title: 'Donation Services',
-    icon: Home,
-    description: 'We accept and manage donated items with a focus on reuse and community benefit.',
-    longDescription: 'Our donation services prioritize giving your unwanted items a second life. We carefully evaluate each item for its potential to benefit the community through donation to local charities, non-profits, and families in need. Our team handles the entire process from pickup to delivery, ensuring your donations make the maximum positive impact. With partnerships across the Denver Metro area, we connect your items with organizations that need them most.',
-    features: [
-      { title: 'Free Pickup Scheduling', description: 'Convenient scheduling for qualifying donations with same-day and next-day options available.' },
-      { title: 'Donation Evaluation', description: 'Every item is carefully evaluated for its potential to benefit the community through reuse.' },
-      { title: 'Charity Partnerships', description: 'Direct partnerships with over 20 local charities and non-profit organizations.' },
-      { title: 'Tax Documentation', description: 'Tax-deductible donation receipts provided for all qualifying donations.' },
-      { title: 'Professional Handling', description: 'Items are carefully handled and transported to ensure they arrive in perfect condition.' },
-      { title: 'Community Tracking', description: 'We provide updates on where your donations end up and the impact they make.' }
-    ],
-    process: [
-      { step: 'Contact Us', detail: 'Reach out with details and photos of items you would like to donate.' },
-      { step: 'Evaluation', detail: 'Our team evaluates donation eligibility based on condition and community need.' },
-      { step: 'Schedule Pickup', detail: 'Choose a convenient pickup window — same-day and next-day slots available.' },
-      { step: 'Collection', detail: 'Our professional team arrives, carefully loads and transports your items.' },
-      { step: 'Distribution', detail: 'Donations are delivered to partner organizations and families in need.' },
-      { step: 'Confirmation', detail: 'Receive documentation and confirmation of your donation\'s impact.' }
-    ],
-    image:   'https://images.unsplash.com/photo-1604187351574-c75ca79f5807?w=800&h=600&fit=crop&q=80',
-    secondaryImage:  'https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=800&h=600&fit=crop&q=80',
-    faqs: [
-      { question: 'What items do you accept for donation?', answer: 'We accept furniture, clothing, household goods, electronics in working condition, appliances, sporting goods, books, and more. Items should be in usable condition. Contact us if you are unsure about a specific item.' },
-      { question: 'Is there a fee for donation pickup?', answer: 'Pickup is free for qualifying donations that meet our condition standards. For mixed loads with both donation and disposal items, we provide a combined quote.' },
-      { question: 'Do I receive a tax receipt?', answer: 'Yes, we provide tax-deductible donation receipts for all qualifying items. Receipts are emailed within 48 hours of pickup.' },
-      { question: 'Where do the donated items go?', answer: 'We partner with over 20 local charities, shelters, and community organizations across the Denver Metro area. Items are matched to organizations based on current need.' },
-      { question: 'How quickly can you pick up donations?', answer: 'We offer same-day and next-day pickup for most Denver Metro locations. Standard scheduling is within 2-3 business days.' }
-    ],
-    gallery: [
-       
-     {
-  url: 'https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=800&h=600&fit=crop&q=80',
-  alt: 'Junk removal team clearing furniture from home',
-  caption: 'Furniture removal service'
-},
-{
-  url: 'https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=800&h=600&fit=crop&q=80',
-  alt: 'Clean empty space after junk removal',
-  caption: 'Cleanout service results'
-}
-    relatedServices: ['furniture-donation', 'clean-out-services', 'commercial-services'],
-    stats: [
-      { value: '10,000+', label: 'Items Donated' },
-      { value: '20+', label: 'Charity Partners' },
-      { value: '98%', label: 'Client Satisfaction' }
-    ],
-    testimonial: { text: 'Echo Swift made donating our household items incredibly easy. They picked everything up, handled it with care, and even sent us photos of where our things ended up. Amazing service!', name: 'Sarah Mitchell', location: 'Denver, CO' }
-  },
+  
   'furniture-donation': {
     title: 'Furniture Donation',
     icon: Package,
