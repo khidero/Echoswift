@@ -50,7 +50,7 @@ function HomePage() {
     <p className="text-gray-600 mb-8">
       Serving corporate clients, property managers, and organizations across the Denver Metro area.
     </p>
-
+    {/* update */}
     <div className="flex flex-wrap justify-center gap-6 text-sm text-gray-700">
       <span>Greystar</span>
       <span>Property Management</span>
