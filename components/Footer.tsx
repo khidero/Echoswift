@@ -15,15 +15,15 @@ export const Footer: React.FC = () => {
                 <span className="text-gray-900 font-black text-xl tracking-tighter">ES</span>
               </div>
               <div className="flex flex-col">
-                <span className="text-lg font-black leading-none tracking-tight">Echo Swift</span>
+                <span className="text-lg font-black leading-none tracking-tight">ALNOUMAN FADS LLC</span>
                 <div className="flex items-center gap-1.5 mt-0.5">
                   <div className="h-px w-3 bg-gray-500"></div>
-                  <span className="text-[8px] font-bold uppercase tracking-[0.2em] text-gray-500">Junk Removal</span>
+                  <span className="text-[8px] font-bold uppercase tracking-[0.2em] text-gray-500">SMART JUNK REMOVAL</span>
                 </div>
               </div>
             </div>
             <p className="text-gray-400 text-sm mb-4">
-              Professional waste management and donation services focused on reducing landfill impact.
+              Professional junk removal, cleanout, and hauling services across Denver Metro.
             </p>
             <div className="flex gap-3">
               <a href="#" className="w-10 h-10 bg-gray-800 hover:bg-gray-700 rounded-lg flex items-center justify-center transition-colors">
