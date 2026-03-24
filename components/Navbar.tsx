@@ -65,7 +65,7 @@ export const Navbar: React.FC = () => {
   },
   {
     name: 'Service Areas',
-    desc: 'Denver, Aurora, Broomfield and surrounding cities',
+    desc: 'Serving homes and businesses across Denver Metro from Longmont to Colorado Springs, including Boulder, Golden, Aurora, Centennial, Parker, Brighton, Commerce City, and surrounding areas',
     path: '/#service-areas'
   },
   {
