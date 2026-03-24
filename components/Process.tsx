@@ -10,12 +10,18 @@ const steps = [
   {
     icon: Calendar,
     title: "Schedule Pickup",
-    description: "We arrange pickup based on item condition and location"
-  },
-  {
+    description: (
+  <>
+    We arrange pickup based on item condition and location. You can also pick up approved items directly from our warehouse.
+    <br /><br />
+    <strong>Pickup Location:</strong> Swift60 Warehouse<br />
+    2045 S Valentia St Unit 16, Denver, CO<br />
+    By appointment only.
+  </>
+), {,{
     icon: CheckCircle2,
-    title: "Free Item Days",
-    description: "Weekly free item releases. Limited availability. Must be claimed online before pickup."
+    title: "Wednesday Mattress Program",
+    description: "Every Wednesday, used & sanitized mattresses are released at no cost. Limited availability. Must be claimed online."
   }
 ];
 
