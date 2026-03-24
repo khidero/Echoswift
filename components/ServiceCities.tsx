@@ -43,7 +43,7 @@ export const ServiceCities: React.FC = () => {
               Denver & Surrounding Areas We Serve
               </h2>
               <p className="text-lg text-gray-600">
-                Professional junk removal services across Denver and 30+ surrounding cities. Fast, reliable, same-day service available.
+               Serving Denver and all surrounding areas within an 80-mile radius. Fast, reliable, same-day junk removal available.
               </p>
             </div>
 
