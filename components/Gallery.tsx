@@ -3,24 +3,24 @@ import { Star } from 'lucide-react';
 
 const galleryImages = [
   {
-    url: 'https://images.unsplash.com/photo-1562077772-3bd90f697aaa?w=600&h=400&fit=crop&q=80',
-    alt: 'Colorful recycling bins for sorted waste',
-    label: 'Recycling'
+    url: 'https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=800&h=600&fit=crop&q=80',
+    alt:  'Junk removal service in Denver loading furniture and household items',
+    label: 'Junk Removal'
   },
   {
     url: 'https://images.unsplash.com/photo-1600585152220-90363fe7e115?w=600&h=400&fit=crop&q=80',
     alt: 'Clean empty room after junk removal service',
-    label: 'Clean-Outs'
+    label: 'CleanOuts'
   },
   {
     url: 'https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?w=600&h=400&fit=crop&q=80',
     alt: 'Recycling process and waste sorting',
-    label: 'Waste Sorting'
+    label: 'Commercial'
   },
   {
     url: 'https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=600&h=400&fit=crop&q=80',
     alt: 'Community volunteers sorting donated items',
-    label: 'Donations'
+    label:  'Furniture Pickup'
   }
 ];
 
