@@ -82,7 +82,7 @@ export const Footer: React.FC = () => {
 
         <div className="border-t border-gray-800 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-gray-400">
-            <p>&copy; {currentYear} Echo Swift Junk Removal. All rights reserved.</p>
+            <p>&copy; {currentYear} ALNOUMAN FADS LLC. All rights reserved.</p>
             <div className="flex gap-6">
               <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>
               <a href="#" className="hover:text-white transition-colors">Terms of Service</a>
