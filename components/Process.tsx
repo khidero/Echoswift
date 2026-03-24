@@ -14,8 +14,8 @@ const steps = [
   },
   {
     icon: CheckCircle2,
-    title: "Donation & Reuse",
-    description: "Items prioritized for donation, reuse, or recycling"
+    title: "Free Item Days",
+    description: "Weekly free item releases. Limited availability. Must be claimed online before pickup."
   }
 ];
 
