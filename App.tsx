@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-route
 import { Navbar } from './components/Navbar';
 import { Hero } from './components/Hero';
 import { Services } from './components/Services';
-import { DonationInfo } from './components/DonationInfo';
 import { Process } from './components/Process';
 import { ServiceCities } from './components/ServiceCities';
 import { Gallery } from './components/Gallery';
@@ -60,7 +59,6 @@ function HomePage() {
     </div>
   </div>
 </section>
-      <DonationInfo />
       <Process />
       <ServiceCities />
       <Gallery />
