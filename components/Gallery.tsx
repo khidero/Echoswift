@@ -82,9 +82,13 @@ export const Gallery: React.FC = () => {
                   alt={image.alt}
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-gray-900/70 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                <div className="absolute bottom-0 left-0 right-0 p-4 text-white translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-300">
-                  <span className="text-sm font-bold">{image.label}</span>
+            <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
+
+<div className="absolute bottom-0 left-0 right-0 p-4 text-white">
+  <span className="text-sm md:text-base font-semibold">
+    {image.label}
+  </span>
+</div>
                 </div>
               </div>
             ))}
