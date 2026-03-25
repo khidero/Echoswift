@@ -89,8 +89,8 @@ export const Gallery: React.FC = () => {
     {image.label}
   </span>
 </div>
-                </div>
-              </div>
+              
+       
             ))}
           </div>
         </div>
