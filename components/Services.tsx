@@ -53,23 +53,8 @@ export const Services: React.FC = () => {
     <section id="services" className="py-16 md:py-24 lg:py-32 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
-        <div className="mb-16">
-          <span className="text-sm font-bold uppercase tracking-wider text-gray-500 mb-4 block">
-            Our Services
-          </span>
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-end">
-            <div>
-              <h2 className="text-4xl md:text-5xl font-black text-gray-900 mb-4 leading-tight">
-                Junk Removal & Cleanout Services
-              </h2>
-            </div>
-            <div>
-              <p className="text-gray-600 text-lg">
-               Professional junk removal services for homes, apartments, offices, retail stores, and commercial properties across Denver Metro. Fast, reliable, and hassle-free cleanouts.
-              </p>
-            </div>
-          </div>
-        </div>
+       
+    
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {serviceItems.map((item, index) => (
@@ -78,23 +63,23 @@ export const Services: React.FC = () => {
               to={`/services/${item.slug}`}
               className="group relative bg-gray-50 hover:bg-gray-900 transition-all duration-300 block overflow-hidden rounded-lg"
             >
-              <div className="aspect-[16/9] overflow-hidden">
+             <div className="relative h-56 overflow-hidden rounded-xl">
                 <img
-                  src={item.image}
-                  alt={item.title}
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+  src={item.image}
+  alt={item.title}
+  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                 />
-              </div>
-              <div className="p-6">
-                <div className="flex items-start gap-4">
-                  <div className="w-12 h-12 bg-gray-900 group-hover:bg-white flex items-center justify-center flex-shrink-0 transition-colors rounded-lg">
-                    <item.icon size={22} className="text-white group-hover:text-gray-900 transition-colors" strokeWidth={2.5} />
+               <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
+             
+          
+                  <div className="w-12 h-12 bg-black/70 flex items-center justify-center flex-shrink-0 rounded-lg">
+                    <item.icon size={22} className="text-white" strokeWidth={2.5} />
                   </div>
                   <div className="flex-1">
-                    <h3 className="text-lg font-black text-gray-900 group-hover:text-white mb-2 transition-colors">
+                 <h3 className="text-xl font-semibold text-white mb-1">
                       {item.title}
                     </h3>
-                    <p className="text-gray-600 group-hover:text-gray-300 leading-relaxed text-sm transition-colors">
+                  <p className="text-white/80 leading-relaxed text-sm">
                       {item.description}
                     </p>
                   </div>
