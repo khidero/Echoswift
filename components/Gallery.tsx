@@ -33,9 +33,9 @@ const galleryImages = [
     label: 'Electronics & Appliance Removal',
   },
   {
-    url: '/images/dumpster-overflow-cleanup.jpg',
-    alt: 'Dumpster overflow cleanup service for apartments',
-    label: 'Dumpster Overflow Cleanup',
+    url: '/images/dumpster-area-cleanup.jpg',
+   alt: 'Dumpster area cleanup service removing trash and furniture around dumpsters for apartments and businesses',
+label: 'Dumpster Area Cleanup',
   },
 ];
 
