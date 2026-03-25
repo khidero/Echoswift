@@ -54,7 +54,8 @@ export const Services: React.FC = () => {
 </div>
         </div>
 </section>
-        
+    );
+};
        
     
 
