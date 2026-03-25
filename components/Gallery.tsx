@@ -88,6 +88,7 @@ export const Gallery: React.FC = () => {
   <span className="text-sm md:text-base font-semibold">
     {image.label}
   </span>
+</div> 
 </div>
               
        
