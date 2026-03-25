@@ -22,11 +22,7 @@ const galleryImages = [
     alt: 'Cardboard removal and recycling service',
     label: 'Cardboard Recycling',
   },
-  {
-    url: '/images/commercial-overflow-cleanup.jpg',
-  alt: 'Commercial overflow cleanup service for stores and businesses',
-  label: 'Commercial Overflow Cleanup',
-  },
+  
   {
     url: '/images/electronics-appliance-removal.jpg',
     alt: 'Electronics and appliance removal service',
