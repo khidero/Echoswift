@@ -37,6 +37,37 @@ function HomePage() {
   return (
     <>
       <Hero />
+      <section className="py-16 bg-gray-50">  
+  <div className="max-w-6xl mx-auto px-4 text-center">  <h2 className="text-2xl font-bold mb-4">  
+  Community Impact & Responsible Waste  
+</h2>  
+
+<p className="text-gray-600 mb-8">  
+  We reduce waste through reuse, recycling, and responsible disposal.  
+  Items in good condition are redirected to support local families and community needs.  
+</p>  
+
+<div className="grid grid-cols-1 md:grid-cols-3 gap-6">  
+
+  <div className="bg-white p-6 rounded-xl shadow">  
+    <h3 className="text-xl font-bold">1,500+ lbs</h3>  
+    <p className="text-gray-500">Recycled in 2025</p>  
+  </div>  
+
+  <div className="bg-white p-6 rounded-xl shadow">  
+    <h3 className="text-xl font-bold">150+ Items</h3>  
+    <p className="text-gray-500">Donated to community</p>  
+  </div>  
+
+  <div className="bg-white p-6 rounded-xl shadow">  
+    <h3 className="text-xl font-bold">14,600+ lbs</h3>  
+    <p className="text-gray-500">Properly disposed</p>  
+  </div>  
+
+</div>
+
+  </div>  
+</section>
       <Services />
       {/* Corporate Clients Section */}
 <section className="py-16 bg-gray-50">
