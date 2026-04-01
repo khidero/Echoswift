@@ -70,7 +70,11 @@ export const Hero: React.FC = () => {
 
           <div className="lg:col-span-5 animate-fade-in" style={{animationDelay: '0.5s'}}>
             <div className="relative aspect-[4/5] overflow-hidden rounded-xl shadow-lg">
-              <img src="https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=800&h=1000&fit=crop&q=80" alt="Junk removal and cleanout service in Denver" className="w-full h-full object-cover" />
+             <img
+  src="/images/commercial-cleanout-new.jpg"
+  alt="Commercial junk removal and cleanout services in Denver"
+  className="w-full h-full object-cover"
+/>
               
               <div className="absolute inset-0 bg-gradient-to-t from-gray-900/80 to-transparent"></div>
               
