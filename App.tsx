@@ -37,6 +37,22 @@ function HomePage() {
   return (
     <>
       <Hero />
+      <section className="bg-white py-6 border-b">
+  <div className="max-w-6xl mx-auto px-4">
+    
+    <div className="flex flex-wrap justify-center gap-8 md:gap-10 text-base md:text-lg font-semibold text-gray-800">
+      
+      <span className="bg-gray-100 px-4 py-2 rounded-full">✔ Licensed & Insured</span>
+<span className="bg-gray-100 px-4 py-2 rounded-full">♻ Eco-Friendly Disposal</span>
+<span className="bg-gray-100 px-4 py-2 rounded-full">⚡ Same-Day Service</span>
+<span className="bg-gray-100 px-4 py-2 rounded-full">📍 Serving Denver Metro</span>
+    
+    </div>
+
+  </div>
+</section>
+
+      
       <section className="py-16 bg-gray-50">  
   <div className="max-w-6xl mx-auto px-4 text-center">  <h2 className="text-3xl md:text-4xl font-bold mb-4"> 
   Community Impact & Responsible Waste  
