@@ -43,9 +43,10 @@ function HomePage() {
     <div className="flex flex-wrap justify-center gap-8 md:gap-10 text-base md:text-lg font-semibold text-gray-800">
       
       <span className="bg-gray-100 px-4 py-2 rounded-full">✔ Licensed & Insured</span>
-<span className="bg-gray-100 px-4 py-2 rounded-full">♻ Eco-Friendly Disposal</span>
+<span className="bg-green-50 text-green-700 px-4 py-2 rounded-full">🌱 Eco-Friendly Disposal</span>
 <span className="bg-gray-100 px-4 py-2 rounded-full">⚡ Same-Day Service</span>
 <span className="bg-gray-100 px-4 py-2 rounded-full">📍 Serving Denver Metro</span>
+<span className="bg-gray-100 px-4 py-2 rounded-full">🏗️ Sustainability Program in Progress</span>
     
     </div>
 
