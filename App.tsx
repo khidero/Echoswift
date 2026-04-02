@@ -86,26 +86,7 @@ function HomePage() {
   </div>  
 </section>
       <Services />
-      {/* Corporate Clients Section */}
-<section className="py-16 bg-gray-50">
-  <div className="max-w-6xl mx-auto px-4 text-center">
-    <h2 className="text-2xl font-bold mb-4">
-      Corporate Clients
-    </h2>
-
-    <p className="text-gray-600 mb-8">
-      Serving corporate clients, property managers, and organizations across the Denver Metro area.
-    </p>
-    {/* update */}
-    <div className="flex flex-wrap justify-center gap-6 text-sm text-gray-700">
-      <span>Greystar</span>
-      <span>Property Management</span>
-      <span>Apartment Communities</span>
-      <span>Retail & Offices</span>
-      <span>Nonprofit Organizations</span>
-    </div>
-  </div>
-</section>
+    
       <Process />
       <ServiceCities />
       <Gallery />
