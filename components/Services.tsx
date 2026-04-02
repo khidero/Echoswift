@@ -24,7 +24,7 @@ export const Services: React.FC = () => {
       What We Do
     </span>
 
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
       <div className="border rounded-2xl p-6">
         <h3 className="text-xl font-semibold mb-2">Junk Removal</h3>
         <p className="text-gray-600">Fast removal for homes and businesses.</p>
@@ -41,6 +41,12 @@ export const Services: React.FC = () => {
   Couches, mattresses, refrigerators, treadmills, and other bulky household items.
 </p>
       </div>
+      <div className="border rounded-2xl p-6">
+  <h3 className="text-xl font-semibold mb-2">Cardboard Recycling</h3>
+  <p className="text-gray-600">
+    Bulk cardboard removal and eco-friendly recycling for homes and businesses.
+  </p>
+</div>
     </div>
   </div>
 
