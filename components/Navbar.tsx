@@ -59,9 +59,9 @@ export const Navbar: React.FC = () => {
     path: '/#services'
   },
   {
-    name: 'Free Furniture Pickup',
-    desc: 'Reusable Furniture Pickup when Eligible',
-    path: '/#services'
+    name: 'Community Program',
+desc: 'Free pickup for reusable items supporting community reuse',
+path: '/#community'
   },
   {
     name: 'Service Areas',
