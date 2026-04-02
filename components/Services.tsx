@@ -60,12 +60,14 @@ export const Services: React.FC = () => {
 
   <div>
     <span className="text-sm font-bold uppercase tracking-wider text-gray-500 mb-4 block">
-      Community Impact
+      Community Support Program
     </span>
 
-    <p className="text-gray-600 max-w-3xl">
-      We help reduce landfill waste by reusing, recycling, and responsibly handling usable materials.
-    </p>
+   <p className="text-gray-700 text-lg max-w-4xl">
+  We reduce landfill waste through reuse, recycling, and responsible handling of materials.
+  <br /><br />
+  Through our community support program, we provide sanitized mattresses weekly and offer access to free, usable furniture for individuals and nonprofit organizations.
+</p>
   </div>
 </div>
         </div>
