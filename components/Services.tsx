@@ -7,17 +7,7 @@ export const Services: React.FC = () => {
     <section id="services" className="py-16 md:py-24 lg:py-32 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="space-y-16">
-  <div>
-    <span className="text-sm font-bold uppercase tracking-wider text-gray-500 mb-4 block">
-      Corporate Clients
-    </span>
-    <h2 className="text-4xl md:text-5xl font-black text-gray-900 mb-4">
-      Trusted Support for Commercial Properties
-    </h2>
-    <p className="text-gray-600 text-lg max-w-3xl">
-      We support property managers, apartments, offices, and businesses with reliable junk removal and cleanout services.
-    </p>
-  </div>
+  
 
   <div>
     <span className="text-sm font-bold uppercase tracking-wider text-gray-500 mb-4 block">
@@ -48,6 +38,17 @@ export const Services: React.FC = () => {
   </p>
 </div>
     </div>
+  </div>
+          <div>
+    <span className="text-sm font-bold uppercase tracking-wider text-gray-500 mb-4 block">
+      Corporate Clients
+    </span>
+    <h2 className="text-4xl md:text-5xl font-black text-gray-900 mb-4">
+      Trusted Support for Commercial Properties
+    </h2>
+    <p className="text-gray-600 text-lg max-w-3xl">
+      We support property managers, apartments, offices, and businesses with reliable junk removal and cleanout services.
+    </p>
   </div>
 
   <div>
