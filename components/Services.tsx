@@ -36,8 +36,10 @@ export const Services: React.FC = () => {
       </div>
 
       <div className="border rounded-2xl p-6">
-        <h3 className="text-xl font-semibold mb-2">Furniture Removal</h3>
-        <p className="text-gray-600">Couches, mattresses, and bulk items.</p>
+        <h3 className="text-xl font-semibold mb-2">Furniture & Applainces Removal</h3>
+        <p className="text-gray-600">
+  Couches, mattresses, refrigerators, treadmills, and other bulky household items.
+</p>
       </div>
     </div>
   </div>
