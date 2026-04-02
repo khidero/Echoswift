@@ -30,7 +30,7 @@ const steps = [
 
 export const Process: React.FC = () => {
   return (
-    <section className="py-16 md:py-24 lg:py-32 bg-white">
+ <section className="py-10 md:py-14 lg:py-16 mt-2 bg-white">
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <h2 className="text-4xl md:text-5xl font-black text-gray-900 leading-tight mb-4 tracking-tight">
