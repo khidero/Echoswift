@@ -86,7 +86,21 @@ function HomePage() {
   </div>  
 </section>
       <Services />
-    
+    <section id="about" className="py-16 bg-white">
+  <div className="max-w-5xl mx-auto px-4 text-center">
+    <h2 className="text-4xl font-bold text-gray-900 mb-6">
+      About Alnouman FADS
+    </h2>
+
+    <p className="text-gray-600 text-lg leading-relaxed max-w-3xl mx-auto">
+      Founded in 2021, Alnouman FADS is a locally operated service company based in Denver, Colorado, providing reliable same-day solutions across an 80-mile service radius.
+      <br /><br />
+      We support homeowners, businesses, and organizations with fast response times, professional service, and flexible scheduling.
+      <br /><br />
+      Our goal is to deliver efficient, dependable service while creating a positive community impact through responsible handling, reuse, and donation whenever possible.
+    </p>
+  </div>
+</section>
       <Process />
       <ServiceCities />
       <Gallery />
