@@ -9,7 +9,7 @@ export const Navbar: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [showServicesMega, setShowServicesMega] = useState(false);
   const [mobileServicesOpen, setMobileServicesOpen] = useState(false);
-
+const [showOptions, setShowOptions] = useState(false);
   useEffect(() => {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 20);
@@ -186,7 +186,7 @@ path: '/#community'
             ))}
             
             <button 
-              onClick={() => handleLinkClick('/#contact')}
+              onClick={() => setShowOptions(true)}
               className="px-8 py-3.5 font-bold text-xs uppercase tracking-wider bg-gray-900 text-white hover:bg-gray-800 transition-colors rounded-lg"
             >
               Get A Quote
@@ -201,6 +201,61 @@ path: '/#community'
           </button>
         </div>
       </nav>
+      {showOptions && (
+  <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50">
+    <div className="bg-white p-6 rounded-2xl max-w-md w-full text-center shadow-xl">
+
+      <h2 className="text-xl font-bold mb-4">Select Your Service Type</h2>
+
+      <div className="mb-5">
+        <p className="font-semibold mb-2">Corporate / Business / NGO</p>
+
+        <a
+          href="mailto:Sales@alnoumanfads.com"
+          className="block mb-2 px-4 py-2 bg-gray-900 text-white rounded-lg"
+        >
+          Email Sales@alnoumanfads.com
+        </a>
+
+        <a
+          href="tel:3036672706"
+          className="block px-4 py-2 border rounded-lg"
+        >
+          Call 303-667-2706
+        </a>
+      </div>
+
+      <div className="mb-5">
+        <p className="font-semibold mb-2">Homeowner</p>
+
+        <a
+          href="https://square.link/YOUR-LINK"
+          target="_blank"
+          rel="noreferrer"
+          className="block px-4 py-2 bg-green-600 text-white rounded-lg"
+        >
+          Book Online
+        </a>
+
+        <p className="text-sm text-gray-500 mt-3">
+          You may also send photos and details to
+          <br />
+          <a href="mailto:Sales@alnoumanfads.com" className="underline">
+            Sales@alnoumanfads.com
+          </a>
+        </p>
+      </div>
+
+      <button
+        onClick={() => setShowOptions(false)}
+        className="mt-2 text-gray-500"
+      >
+        Close
+      </button>
+
+    </div>
+  </div>
+)}
 
       <div 
         className={`fixed inset-0 top-0 bg-white z-[50] transition-all duration-400 ease-out md:hidden ${
