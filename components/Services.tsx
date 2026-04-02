@@ -64,7 +64,7 @@ export const Services: React.FC = () => {
     </span>
 
     <p className="text-gray-600 max-w-3xl">
-      We help keep usable items out of landfills through community programs.
+      We help reduce landfill waste by reusing, recycling, and responsibly handling usable materials.
     </p>
   </div>
 </div>
