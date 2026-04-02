@@ -86,7 +86,11 @@ function HomePage() {
   </div>  
 </section>
       <Services />
-    <section id="about" className="py-16 bg-white">
+   
+      <Process />
+      <ServiceCities />
+      <Gallery />
+       <section id="about" className="py-16 bg-white">
   <div className="max-w-5xl mx-auto px-4 text-center">
     <h2 className="text-4xl font-bold text-gray-900 mb-6">
       About Alnouman FADS
@@ -101,9 +105,6 @@ function HomePage() {
     </p>
   </div>
 </section>
-      <Process />
-      <ServiceCities />
-      <Gallery />
     </>
   );
 }
