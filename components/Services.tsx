@@ -49,6 +49,13 @@ export const Services: React.FC = () => {
     <p className="text-gray-600 text-lg max-w-3xl">
       We support property managers, apartments, offices, and businesses with reliable junk removal and cleanout services.
     </p>
+        <div className="flex flex-wrap gap-4 mt-6 text-sm text-gray-500">
+  <span>Greystar</span>
+  <span>Property Management</span>
+  <span>Apartment Communities</span>
+  <span>Retail & Offices</span>
+  <span>Nonprofit Organizations</span>
+</div>    
   </div>
 
   <div>
