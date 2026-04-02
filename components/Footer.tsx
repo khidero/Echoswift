@@ -66,7 +66,7 @@ export const Footer: React.FC = () => {
             <ul className="space-y-3 text-sm text-gray-400">
               <li className="flex items-start gap-2">
                 <MapPin size={16} className="text-gray-500 mt-1 flex-shrink-0" />
-                <span>Denver, CO & Surrounding Areas</span>
+              <span>2045 S Valentia St Unit 16, Denver, CO 80231 (By appointment only)</span>
               </li>
               <li className="flex items-start gap-2">
                 <Phone size={16} className="text-gray-500 mt-1 flex-shrink-0" />
@@ -76,6 +76,10 @@ export const Footer: React.FC = () => {
                 <Mail size={16} className="text-gray-500 mt-1 flex-shrink-0" />
                 <span>Sales@alnoumanfads.com</span>
               </li>
+              <li className="flex items-start gap-2">
+  <Mail size={16} className="text-gray-500 mt-1 flex-shrink-0" />
+ <span>Operations@alnoumanfads.com</span>
+</li> 
             </ul>
           </div>
 
