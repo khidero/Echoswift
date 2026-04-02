@@ -1,7 +1,9 @@
 import React from 'react';
+import { useState } from 'react';
 import { ArrowRight, ChevronDown, CheckCircle2, Truck, Clock, Shield } from 'lucide-react';
 
 export const Hero: React.FC = () => {
+  const [showOptions, setShowOptions] = useState(false);
   const scrollToContact = () => {
     const element = document.getElementById('contact');
     if (element) {
@@ -39,7 +41,7 @@ export const Hero: React.FC = () => {
 
             <div className="flex flex-col sm:flex-row gap-4 mb-8 animate-slide-up" style={{animationDelay: '0.3s'}}>
               <button 
-                onClick={scrollToContact}
+             onClick={() => setShowOptions(true)}
                 className="px-8 py-4 text-base font-bold bg-gray-900 text-white hover:bg-gray-800 transition-colors rounded-lg"
               >
                 Get Free Quote
@@ -51,7 +53,61 @@ export const Hero: React.FC = () => {
                 View Services
               </button>
             </div>
+{showOptions && (
+  <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50">
+    <div className="bg-white p-6 rounded-2xl max-w-md w-full text-center shadow-xl">
 
+      <h2 className="text-xl font-bold mb-4">Select Your Service Type</h2>
+
+      <div className="mb-5">
+        <p className="font-semibold mb-2">Corporate / Business / NGO</p>
+
+        <a
+          href="mailto:Sales@alnoumanfads.com"
+          className="block mb-2 px-4 py-2 bg-gray-900 text-white rounded-lg"
+        >
+          Email Sales@alnoumanfads.com
+        </a>
+
+        <a
+          href="tel:3036672706"
+          className="block px-4 py-2 border rounded-lg"
+        >
+          Call 303-667-2706
+        </a>
+      </div>
+
+      <div className="mb-5">
+        <p className="font-semibold mb-2">Homeowner</p>
+
+        <a
+          href="https://square.link/YOUR-LINK"
+          target="_blank"
+          rel="noreferrer"
+          className="block px-4 py-2 bg-green-600 text-white rounded-lg"
+        >
+          Book Online
+        </a>
+
+        <p className="text-sm text-gray-500 mt-3">
+          You may also send photos and details to
+          <br />
+          <a href="mailto:Sales@alnoumanfads.com" className="underline">
+            Sales@alnoumanfads.com
+          </a>
+        </p>
+      </div>
+
+      <button
+        onClick={() => setShowOptions(false)}
+        className="mt-2 text-gray-500"
+      >
+        Close
+      </button>
+
+    </div>
+  </div>
+)}
             <div className="flex flex-wrap gap-6 text-sm text-gray-600 animate-fade-in" style={{animationDelay: '0.4s'}}>
               <div className="flex items-center gap-2">
                 <CheckCircle2 size={20} className="text-gray-700" />
