@@ -1,24 +1,21 @@
 import React from 'react';
 import { Phone, Calendar, CheckCircle2 } from 'lucide-react';
 
-const steps = [
+const steps= [
   {
     icon: Phone,
-    title: "Contact Us",
-    description: "Reach out with details about your items"
+    title: "View Available Items",
+    description: "Available items can be viewed on our Facebook page before submitting a request through our website."
   },
   {
     icon: Calendar,
-    title: "Contact Us",
-description: "Available items may be viewed on our Facebook page, but all free items must be claimed by placing an online booking request through our website."
-  </>
-),
-},
-{
-
+    title: "Book Online",
+    description: "All free items must be claimed by submitting an online booking request through our website."
+  },
+  {
     icon: CheckCircle2,
-    title: "Wednesday Mattress Program",
-    description: "Every Wednesday, used & sanitized mattresses are released at no cost. Limited availability. Must be claimed online."
+    title: "Arrival Instructions",
+    description: "Upon arrival, follow the warehouse check-in instructions. Staff will guide you to the correct pickup and loading area."
   }
 ];
 
