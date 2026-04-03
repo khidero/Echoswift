@@ -229,7 +229,7 @@ path: '/#community'
         <p className="font-semibold mb-2">Homeowner</p>
 
         <a
-          href="https://square.link/YOUR-LINK"
+        href="https://app.squareup.com/appointments/book/ztnpf9h9bif90f/LAXBXV8ET3SMV/start"
           target="_blank"
           rel="noreferrer"
           className="block px-4 py-2 bg-green-600 text-white rounded-lg"
