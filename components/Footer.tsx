@@ -70,15 +70,19 @@ export const Footer: React.FC = () => {
               </li>
               <li className="flex items-start gap-2">
                 <Phone size={16} className="text-gray-500 mt-1 flex-shrink-0" />
-                <span>(303) 667-2706</span>
+                <a href="tel:3036672706">(303) 667-2706</a>
               </li>
               <li className="flex items-start gap-2">
                 <Mail size={16} className="text-gray-500 mt-1 flex-shrink-0" />
-                <span>Sales@alnoumanfads.com</span>
+               <a href="mailto:Sales@alnoumanfads.com">
+  Sales@alnoumanfads.com
+</a>
               </li>
               <li className="flex items-start gap-2">
   <Mail size={16} className="text-gray-500 mt-1 flex-shrink-0" />
- <span>Operations@alnoumanfads.com</span>
+<a href="mailto:Operations@alnoumanfads.com">
+  Operations@alnoumanfads.com
+</a>
 </li> 
             </ul>
           </div>
