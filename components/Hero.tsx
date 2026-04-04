@@ -3,6 +3,16 @@ import { useState } from 'react';
 import { ArrowRight, ChevronDown, CheckCircle2, Truck, Clock, Shield } from 'lucide-react';
 
 export const Hero: React.FC = () => {
+  const trackConversion = () => {
+  // @ts-ignore
+  if (typeof window.gtag !== "undefined") {
+    window.gtag('event', 'conversion', {
+      send_to: 'AW-18052809681/_IMqCN_nqZUceNGHoKBD',
+      value: 1.0,
+      currency: 'USD'
+    });
+  }
+};
   const [showOptions, setShowOptions] = useState(false);
   const scrollToContact = () => {
     const element = document.getElementById('contact');
@@ -41,7 +51,10 @@ export const Hero: React.FC = () => {
 
             <div className="flex flex-col sm:flex-row gap-4 mb-8 animate-slide-up" style={{animationDelay: '0.3s'}}>
               <button 
-             onClick={() => setShowOptions(true)}
+             onClick={() => {
+  trackConversion();
+  setShowOptions(true);
+}}
                 className="px-8 py-4 text-base font-bold bg-gray-900 text-white hover:bg-gray-800 transition-colors rounded-lg"
               >
                 Get Free Quote
