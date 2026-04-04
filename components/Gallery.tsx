@@ -37,22 +37,28 @@ label: 'Dumpster Area Cleanup',
 
 const testimonials = [
   {
-    name: 'Sarah Mitchell',
+    name: 'Lando C.',
     location: 'Denver, CO',
     rating: 5,
-    text: 'Echo Swift helped us donate our furniture during our move. They were professional and made sure everything went to good use. Highly recommend!'
+    text: 'Scheduling was a breeze with same-day availability. The price was very reasonable, and the team arrived right on time. They were careful with my items and even cleaned up debris afterward. Highly recommend for professionalism, efficiency, and fair pricing.'
   },
   {
-    name: 'James Rodriguez',
-    location: 'Aurora, CO',
+    name: 'Nancy S.',
+    location: 'Denver, CO',
     rating: 5,
-    text: 'Great donation service. They picked up our office furniture and handled everything responsibly. Glad to know it was reused instead of thrown away.'
+    text: 'Responded very quickly, confirmed the appointment, and gave updates on arrival. 100% professional, courteous, and a great price. Highly recommended!'
   },
   {
-    name: 'Emily Chen',
-    location: 'Lakewood, CO',
+    name: 'Sarah P.',
+    location: 'Denver, CO',
     rating: 5,
-    text: 'Excellent waste management service. They prioritized donation and recycling for our estate clean-out. Very satisfied with their approach.'
+    text: 'I’ve worked with Khider three times during a home renovation. He consistently delivers great pricing, excellent communication, and very professional service.'
+  },
+  {
+    name: 'Nicholas S.',
+    location: 'Denver, CO',
+    rating: 5,
+    text: 'Fast and friendly with no issues removing an old fireplace. Smooth and efficient service.'
   }
 ];
 
