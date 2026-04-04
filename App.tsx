@@ -97,23 +97,24 @@ useEffect(() => {
   Items in good condition are redirected to support local families and community needs.  
 </p>  
 
-<div className="grid grid-cols-1 md:grid-cols-3 gap-6">  
+ 
 
-<div className="bg-white p-6 rounded-xl shadow">
-  <h3 className="text-xl font-bold">{animatedStats.recycled}K+ lbs</h3>
-  <p className="text-gray-500">Recycled & diverted from landfill</p>
-</div>
+<div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+  <div className="bg-white p-6 rounded-xl shadow">
+    <h3 className="text-xl font-bold">{animatedStats.recycled}K+ lbs</h3>
+    <p className="text-gray-500">Recycled & diverted from landfill</p>
+  </div>
 
-<div className="bg-white p-6 rounded-xl shadow">
-  <h3 className="text-xl font-bold">{animatedStats.donated}+ items</h3>
-  <p className="text-gray-500">Donated to local communities</p>
-</div>
+  <div className="bg-white p-6 rounded-xl shadow">
+    <h3 className="text-xl font-bold">{animatedStats.donated}+ items</h3>
+    <p className="text-gray-500">Donated to local communities</p>
+  </div>
 
-<div className="bg-white p-6 rounded-xl shadow">
-  <h3 className="text-xl font-bold">{animatedStats.disposed}K+ lbs</h3>
-  <p className="text-gray-500">Waste properly disposed</p>
-</div>
-  </div>  
+  <div className="bg-white p-6 rounded-xl shadow">
+    <h3 className="text-xl font-bold">{animatedStats.disposed}K+ lbs</h3>
+    <p className="text-gray-500">Waste properly disposed</p>
+  </div>
+
 
 
     
