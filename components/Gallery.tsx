@@ -37,14 +37,14 @@ label: 'Dumpster Area Cleanup',
 
 const testimonials = [
   {
-    name: 'Lando C.',
-    location: 'Denver, CO',
+    name: 'Landon',
+    location: 'Thornton, CO',
     rating: 5,
     text: 'Scheduling was a breeze with same-day availability. The price was very reasonable, and the team arrived right on time. They were careful with my items and even cleaned up debris afterward. Highly recommend for professionalism, efficiency, and fair pricing.'
   },
   {
-    name: 'Nancy S.',
-    location: 'Denver, CO',
+    name: 'Nancy',
+    location: 'Parker, CO',
     rating: 5,
     text: 'Responded very quickly, confirmed the appointment, and gave updates on arrival. 100% professional, courteous, and a great price. Highly recommended!'
   },
@@ -55,13 +55,12 @@ const testimonials = [
     text: 'I’ve worked with Khider three times during a home renovation. He consistently delivers great pricing, excellent communication, and very professional service.'
   },
   {
-    name: 'Nicholas S.',
-    location: 'Denver, CO',
+    name: 'Nicholas',
+    location: 'Lafayette, CO',
     rating: 5,
-    text: 'Fast and friendly with no issues removing an old fireplace. Smooth and efficient service.'
+    text: 'Fast and friendly with no issues removing this old fireplace.'
   }
 ];
-
 export const Gallery: React.FC = () => {
   return (
     <section className="py-16 md:py-24 lg:py-32 bg-white">
