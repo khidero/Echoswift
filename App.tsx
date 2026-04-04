@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import { Navbar } from './components/Navbar';
 import { Hero } from './components/Hero';
@@ -20,6 +20,39 @@ function ScrollToTop() {
 }
 
 function HomePage() {
+  const [animatedStats, setAnimatedStats] = useState({
+  recycled: 0,
+  donated: 0,
+  disposed: 0
+});
+
+useEffect(() => {
+  const duration = 1800;
+  const steps = 60;
+  const intervalTime = duration / steps;
+
+  const targets = {
+    recycled: 25,
+    donated: 700,
+    disposed: 238
+  };
+
+  let step = 0;
+
+  const interval = setInterval(() => {
+    step++;
+
+    setAnimatedStats({
+      recycled: Math.min(Math.round((targets.recycled / steps) * step), targets.recycled),
+      donated: Math.min(Math.round((targets.donated / steps) * step), targets.donated),
+      disposed: Math.min(Math.round((targets.disposed / steps) * step), targets.disposed)
+    });
+
+    if (step >= steps) clearInterval(interval);
+  }, intervalTime);
+
+  return () => clearInterval(interval);
+}, []);
   const location = useLocation();
 
   useEffect(() => {
