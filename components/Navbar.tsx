@@ -325,36 +325,36 @@ path: '/#community'
           </div>
 
           <div className="mt-auto pt-8 space-y-4">
-           <a
-  href="tel:+13036672706"
-  onClick={(e) => {
-    e.preventDefault();
+  <a
+    href="tel:+13036672706"
+    onClick={(e) => {
+      e.preventDefault();
 
-    if (typeof window !== 'undefined' && window.gtag) {
-      window.gtag('event', 'conversion', {
-        send_to: 'AW-18052809681/piWfCK7Xq5YcENGHoKBD',
-        value: 50.0,
-        currency: 'USD'
-      });
-    }
+      if (typeof window !== 'undefined' && window.gtag) {
+        window.gtag('event', 'conversion', {
+          send_to: 'AW-18052809681/piWFCK7Xq5YcENGHoKBD',
+          value: 50.0,
+          currency: 'USD',
+        });
+      }
 
-    window.location.href = 'tel:+13036672706';
-  }}
-  className="flex items-center justify-center gap-..."
->
-  <span>Call (303) 667-2706</span>
-</a>
-              <span>Call (303) 667-2706</span>
-            </a>
-            <button
-              onClick={() => {
-                setIsMenuOpen(false);
-                handleLinkClick('/#contact');
-              }}
-              className="w-full py-4 bg-emerald-600 text-white text-sm font-bold uppercase tracking-wider hover:bg-emerald-700 transition-colors rounded-xl"
-            >
-              Get A Free Quote
-            </button>
+      window.location.href = 'tel:+13036672706';
+    }}
+    className="flex items-center justify-center gap-3 w-full py-4 bg-gray-900 text-white font-bold text-sm uppercase tracking-wider rounded-xl hover:bg-gray-800 transition-colors"
+  >
+    <span>Call (303) 667-2706</span>
+  </a>
+
+  <button
+    onClick={() => {
+      setIsMenuOpen(false);
+      handleLinkClick('/#contact');
+    }}
+    className="w-full py-4 bg-emerald-600 text-white text-sm font-bold uppercase tracking-wider hover:bg-emerald-700 transition-colors rounded-xl"
+  >
+    Get A Free Quote
+  </button>
+</div>           
           </div>
 
           <div className="mt-6 pt-4 border-t border-gray-100 text-center">
