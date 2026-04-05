@@ -51,7 +51,12 @@ export const Hero: React.FC = () => {
 
             <div className="flex flex-col sm:flex-row gap-4 mb-8 animate-slide-up" style={{animationDelay: '0.3s'}}>
               <button 
-             onClick={() => {
+         onClick={() => {
+  if (typeof window !== 'undefined' && window.gtag) {
+    window.gtag('event', 'conversion', {
+      send_to: 'AW-18052809681/NEEuCO6NvpYcENGHoKBD'
+    });
+  }
   trackConversion();
   setShowOptions(true);
 }}
