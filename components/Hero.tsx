@@ -87,12 +87,25 @@ export const Hero: React.FC = () => {
           Email Sales@alnoumanfads.com
         </a>
 
-        <a
-          href="tel:3036672706"
-          className="block px-4 py-2 border rounded-lg"
-        >
-          Call 303-667-2706
-        </a>
+       <a
+  href="tel:3036672706"
+  onClick={(e) => {
+    e.preventDefault();
+
+    if (typeof window !== 'undefined' && window.gtag) {
+      window.gtag('event', 'conversion', {
+        send_to: 'AW-18052809681/piWfCK7Xq5YcENGHoKBD',
+        value: 50.0,
+        currency: 'USD'
+      });
+    }
+
+    window.location.href = 'tel:3036672706';
+  }}
+  className="block px-4 py-2 border rounded-lg"
+>
+  Call 303-667-2706
+</a>
       </div>
 
       <div className="mb-5">
