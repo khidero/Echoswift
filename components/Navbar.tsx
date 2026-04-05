@@ -325,10 +325,25 @@ path: '/#community'
           </div>
 
           <div className="mt-auto pt-8 space-y-4">
-            <a
-              href="tel:+13036672706"
-              className="flex items-center justify-center gap-3 w-full py-4 bg-gray-900 text-white font-bold text-sm uppercase tracking-wider rounded-xl hover:bg-gray-800 transition-colors"
-            >
+           <a
+  href="tel:+13036672706"
+  onClick={(e) => {
+    e.preventDefault();
+
+    if (typeof window !== 'undefined' && window.gtag) {
+      window.gtag('event', 'conversion', {
+        send_to: 'AW-18052809681/piWfCK7Xq5YcENGHoKBD',
+        value: 50.0,
+        currency: 'USD'
+      });
+    }
+
+    window.location.href = 'tel:+13036672706';
+  }}
+  className="flex items-center justify-center gap-..."
+>
+  <span>Call (303) 667-2706</span>
+</a>
               <span>Call (303) 667-2706</span>
             </a>
             <button
