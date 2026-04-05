@@ -39,14 +39,6 @@ export const Footer: React.FC = () => {
           </div>
 
           <div>
-            <h3 className="text-sm font-black uppercase tracking-wider mb-4">Services</h3>
-            <ul className="space-y-2 text-sm text-gray-400">
-              <li><a href="#" className="hover:text-white transition-colors">Donation Services</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Furniture Donation</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Waste Management</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Clean-Out Services</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Commercial Services</a></li>
-            </ul>
           </div>
 
           <div>
