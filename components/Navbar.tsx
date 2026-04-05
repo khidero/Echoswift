@@ -355,7 +355,7 @@ path: '/#community'
     Get A Free Quote
   </button>
 </div>           
-          </div>
+        
 
           <div className="mt-6 pt-4 border-t border-gray-100 text-center">
             <div className="flex items-center justify-center gap-1.5 text-gray-500">
