@@ -114,12 +114,13 @@ function HomePage() {
     <p className="text-lg text-gray-600 mb-8">
       Same-day junk removal across Denver Metro. Fast response, professional service, and flexible scheduling.
     </p>
-    <a
-      href="#"
-      className="inline-block px-8 py-4 rounded-xl bg-emerald-600 text-white font-semibold hover:bg-emerald-700 transition-colors"
-    >
-      Get a Quote
-    </a>
+    
+     <a
+  href="https://l-105607.square.site"
+  className="inline-block px-8 py-4 rounded-xl bg-emerald-600 text-white font-semibold hover:bg-emerald-700 transition-colors"
+>
+  Get a Quote
+</a>
   </div>
 </section>
 
