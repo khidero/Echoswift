@@ -106,22 +106,24 @@ function HomePage() {
       <Process />
       <ServiceCities />
       <Gallery />
+      <section className="py-20 text-center bg-gray-50">
+  <div className="max-w-3xl mx-auto px-6">
+    <h2 className="text-4xl font-bold text-gray-900 mb-4">
+      Need Junk Removed Today?
+    </h2>
+    <p className="text-lg text-gray-600 mb-8">
+      Same-day junk removal across Denver Metro. Fast response, professional service, and flexible scheduling.
+    </p>
+    <a
+      href="#"
+      className="inline-block px-8 py-4 rounded-xl bg-emerald-600 text-white font-semibold hover:bg-emerald-700 transition-colors"
+    >
+      Get a Quote
+    </a>
+  </div>
+</section>
 
-      <section id="about" className="py-16 bg-white">
-        <div className="max-w-5xl mx-auto px-4 text-center">
-          <h2 className="text-4xl font-bold text-gray-900 mb-6">
-            About Alnouman FADS
-          </h2>
-
-          <p className="text-gray-600 text-lg leading-relaxed max-w-3xl mx-auto">
-            Founded in 2021, Alnouman FADS is a locally operated service company based in Denver, Colorado, providing reliable same-day junk removal, cleanout, and hauling services.
-            <br /><br />
-            We support homeowners, businesses, and organizations with fast response times, professional service, and flexible scheduling.
-            <br /><br />
-            Our goal is to deliver efficient, dependable service while creating a positive community impact through responsible handling, recycling, donation, and proper disposal.
-          </p>
-        </div>
-      </section>
+    
     </>
   );
 }
