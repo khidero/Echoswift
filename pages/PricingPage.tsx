@@ -2,133 +2,88 @@ import React from 'react';
 
 export function PricingPage() {
   return (
-    <div className="min-h-screen bg-white text-gray-900 p-10">
-      <div className="max-w-5xl mx-auto">
-        <h1 className="text-5xl font-bold mb-4 text-center">Homeowner Pricing</h1>
+    <div className="min-h-screen bg-white text-gray-900 p-6">
+  <div className="max-w-5xl mx-auto">
 
-        <p className="text-xl text-gray-600 mb-4 text-center">
-          Upfront residential pricing based on item type, volume, and access.
-        </p>
+    <h1 className="text-4xl font-bold mb-4 text-center">
+      Homeowner Pricing
+    </h1>
 
-        <p className="text-lg text-gray-700 mb-10 text-center">
-          All prices include labor, transportation, and disposal fees. No hidden charges.
-        </p>
+    <p className="text-base text-emerald-700 font-semibold text-center mb-4">
+      Same-Day Junk Removal Available • Call or Text for Immediate Service
+    </p>
 
-        <div className="space-y-6">
-          <div className="p-6 border rounded-xl shadow">
-            <h2 className="text-2xl font-semibold">Single Item Pickup</h2>
-            <p className="text-lg mt-2">Starting at $65</p>
-            <p className="text-gray-600 mt-2">Best for one item only.</p>
-          </div>
+    <div className="text-center mb-6">
+      <a
+        href="tel:3036672706"
+        className="inline-block px-6 py-3 rounded-xl bg-black text-white font-bold text-base"
+      >
+        📞 Call Now
+      </a>
+    </div>
 
-          <div className="p-6 border rounded-xl shadow">
-            <h2 className="text-2xl font-semibold">Small Pickup</h2>
-            <p className="text-lg mt-2">1–5 items — $75</p>
-            <p className="text-gray-600 mt-2">Good for small household pickups.</p>
-          </div>
+    <p className="text-lg text-gray-600 mb-2 text-center">
+      Upfront residential pricing based on item type, volume, and access.
+    </p>
 
-          <div className="p-6 border rounded-xl shadow">
-            <h2 className="text-2xl font-semibold">Special Item Pickup</h2>
-            <p className="text-lg mt-2">Mattress — $108</p>
-            <p className="text-lg">Box Spring — $59</p>
-          </div>
+    <p className="text-sm text-gray-700 mb-6 text-center">
+      All prices include labor, transportation, and disposal fees. No hidden charges.
+    </p>
 
-          <div className="p-6 border rounded-xl shadow">
-            <h2 className="text-2xl font-semibold">Large Loads</h2>
-            <p className="text-lg mt-2">Free On-Site Estimate</p>
-            <p className="text-gray-600 mt-2">
-              Best for heavy, bulky, or large-volume residential jobs.
-            </p>
-          </div>
+    <div className="space-y-4">
 
-          <div className="p-6 border rounded-xl shadow">
-            <h2 className="text-2xl font-semibold">Truck Load Pricing</h2>
-            <p className="text-lg mt-2">Half Load — $375</p>
-            <p className="text-lg">Full Load — $750</p>
-          </div>
+      <div className="p-4 border rounded-xl shadow">
+        <h2 className="text-lg font-semibold">Single Item Pickup</h2>
+        <p className="mt-1">Starting at $65</p>
+      </div>
 
-          <div className="p-6 border rounded-xl shadow bg-gray-50">
-            <h2 className="text-2xl font-semibold">Truck Capacity</h2>
-            <p className="text-lg mt-2">Our box trucks hold up to 33 cubic yards.</p>
-          </div>
-        </div>
+      <div className="p-4 border rounded-xl shadow">
+        <h2 className="text-lg font-semibold">Small Pickup</h2>
+        <p className="mt-1">1–5 items — $75</p>
+      </div>
 
-        <div className="mt-14 p-8 border rounded-xl shadow bg-gray-50">
-          <h2 className="text-3xl font-bold mb-4">Business, Property & Retail Pricing</h2>
+      <div className="p-4 border rounded-xl shadow">
+        <h2 className="text-lg font-semibold">Special Items</h2>
+        <p>Mattress — $108</p>
+        <p>Box Spring — $59</p>
+      </div>
 
-          <p className="text-lg text-gray-700 mb-4">
-            Commercial pricing is available upfront for same-day pickups or quoted based on
-            cubic yards, placement, labor time, access, and material type.
-          </p>
+      <div className="p-4 border rounded-xl shadow">
+        <h2 className="text-lg font-semibold">Large Loads</h2>
+        <p>Free On-Site Estimate</p>
+      </div>
 
-          <p className="text-gray-600 mb-4">
-            This applies to offices, retail stores, property managers, apartment turnovers,
-            recurring pickups, and larger cleanout projects.
-          </p>
+      <div className="p-4 border rounded-xl shadow">
+        <h2 className="text-lg font-semibold">Truck Pricing</h2>
+        <p>Half Load — $375</p>
+        <p>Full Load — $750</p>
+      </div>
 
-          <p className="text-gray-700 mb-6">
-            All pricing includes labor, transportation, and disposal fees.
-          </p>
+    </div>
 
-          <div className="grid md:grid-cols-2 gap-3 text-gray-700 mb-6">
-            <div>• Volume / cubic yards</div>
-            <div>• Placement and accessibility</div>
-            <div>• Labor hours and loading conditions</div>
-            <div>• Material and item type</div>
-            <div>• Scheduled or recurring pickups</div>
-            <div>• Office, retail, and property cleanouts</div>
-          </div>
+    <div className="mt-10 p-5 border rounded-xl bg-gray-50">
+      <h2 className="text-xl font-bold mb-3">Business & Commercial</h2>
 
-          <div className="bg-white p-6 rounded-xl border">
-            <h3 className="text-xl font-semibold mb-3">Get a Business Quote</h3>
+      <p className="text-sm mb-3">
+        Pricing depends on volume, labor, access, and material.
+      </p>
 
-            <p className="text-gray-700 mb-4">
-              Choose the fastest way to receive your quote:
-            </p>
+      <p className="text-sm mb-4">
+        Send pictures for fast quotes:
+      </p>
 
-            <div className="space-y-3 text-gray-800">
-              <div>
-                📸 <span className="font-medium">Instant Quote:</span> Send pictures of your items for fast pricing
-              </div>
+      <div className="space-y-2 text-sm">
+        <a href="mailto:sales@alnoumanfads.com" className="block text-emerald-600">
+          📧 sales@alnoumanfads.com
+        </a>
 
-              <div>
-                📧 <span className="font-medium">Email:</span>{' '}
-                <a
-                  href="mailto:sales@alnoumanfads.com"
-                  className="text-emerald-600 underline"
-                >
-                  sales@alnoumanfads.com
-                </a>
-              </div>
-
-              <div>
-                📞 <span className="font-medium">Call / Text:</span>{' '}
-                <a
-                  href="tel:3036672706"
-                  className="text-emerald-600 underline"
-                >
-                  303-667-2706
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div className="text-center mt-10">
-          <p className="text-gray-600 mb-4">
-            For more details and exact pricing, click Get a Quote.
-          </p>
-
-          <a
-            href="https://l-105607.square.site"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-block px-8 py-4 rounded-xl bg-emerald-600 text-white font-semibold hover:bg-emerald-700 transition-colors"
-          >
-            Get a Quote
-          </a>
-        </div>
+        <a href="tel:3036672706" className="block text-emerald-600">
+          📞 303-667-2706
+        </a>
       </div>
     </div>
-  );
+
+  </div>
+</div>
+    );
 }
