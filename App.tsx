@@ -8,7 +8,7 @@ import { ServiceCities } from './components/ServiceCities';
 import { Gallery } from './components/Gallery';
 import { Footer } from './components/Footer';
 import { ServicePage } from './pages/ServicePage';
-import PricingPage from './PricingPage';
+import PricingPage from './pages/PricingPage';
 function ScrollToTop() {
   const { pathname } = useLocation();
 
