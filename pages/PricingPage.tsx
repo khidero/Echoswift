@@ -128,9 +128,7 @@ export function PricingPage() {
           303-667-2706
         </a>
       </div>
-    </div>
-  </div>
-</div>
+    
           >
             Get a Quote
           </a>
