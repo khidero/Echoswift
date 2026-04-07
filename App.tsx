@@ -137,7 +137,7 @@ function App() {
         
         <Routes>
           <Route path="/" element={<HomePage />} />
-         
+         <Route path="/pricing" element={<PricingPage />} />
           <Route path="/services/:serviceSlug" element={<ServicePage />} />
         </Routes>
         
