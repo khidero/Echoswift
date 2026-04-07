@@ -8,7 +8,7 @@ import { ServiceCities } from './components/ServiceCities';
 import { Gallery } from './components/Gallery';
 import { Footer } from './components/Footer';
 import { ServicePage } from './pages/ServicePage';
-import PricingPage from './pages/PricingPage';
+
 function ScrollToTop() {
   const { pathname } = useLocation();
 
@@ -137,7 +137,7 @@ function App() {
         
         <Routes>
           <Route path="/" element={<HomePage />} />
-          <Route path="/pricing" element={<PricingPage />} />
+         
           <Route path="/services/:serviceSlug" element={<ServicePage />} />
         </Routes>
         
