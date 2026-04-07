@@ -44,12 +44,11 @@ export const Footer: React.FC = () => {
           <div>
             <h3 className="text-sm font-black uppercase tracking-wider mb-4">Company</h3>
             <ul className="space-y-2 text-sm text-gray-400">
-              <li><a href="#" className="hover:text-white transition-colors">About Us</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Service Areas</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Pricing</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">FAQ</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Contact</a></li>
-              <li><a href="/#compliance" className="hover:text-white transition-colors">Compliance</a></li>
+             <li><a href="/about" className="hover:text-white transition-colors">About Us</a></li>
+<li><a href="/service-areas" className="hover:text-white transition-colors">Service Areas</a></li>
+<li><a href="/pricing" className="hover:text-white transition-colors">Pricing</a></li>
+<li><a href="/faq" className="hover:text-white transition-colors">FAQ</a></li>
+<li><a href="/compliance" className="hover:text-white transition-colors">Compliance</a></li>
             </ul>
           </div>
 
