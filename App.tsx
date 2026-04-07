@@ -9,6 +9,7 @@ import { Gallery } from './components/Gallery';
 import { Footer } from './components/Footer';
 import { ServicePage } from './pages/ServicePage';
 import { PricingPage } from './pages/PricingPage';
+import { CompliancePage } from './pages/CompliancePage';
 function ScrollToTop() {
   const { pathname } = useLocation();
 
@@ -139,6 +140,7 @@ function App() {
           <Route path="/" element={<HomePage />} />
          <Route path="/pricing" element={<PricingPage />} />
           <Route path="/services/:serviceSlug" element={<ServicePage />} />
+          <Route path="/compliance" element={<CompliancePage />} />
         </Routes>
         
         <Footer />
