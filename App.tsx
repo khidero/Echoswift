@@ -10,7 +10,7 @@ import { Footer } from './components/Footer';
 import { ServicePage } from './pages/ServicePage';
 import { PricingPage } from './pages/PricingPage';
 import { CompliancePage } from './pages/CompliancePage';
-import { FaqPage } from './pages/FaqPage';
+import { FaqPage } from './pages/faqPage';
 function ScrollToTop() {
   const { pathname } = useLocation();
 
