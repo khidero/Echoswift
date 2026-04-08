@@ -26,9 +26,9 @@ export function PricingPage() {
     "Couch / Loveseat",
     "Recliner",
     "Dresser",
-    "Desk",
+    "Wahser/Dryer",
     "Sectional",
-    "Bag of Junk"
+    "Refrigerator"
   ].map((item) => (
     <button
       key={item}
