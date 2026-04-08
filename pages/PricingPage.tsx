@@ -1,6 +1,16 @@
 import { useState } from 'react';
 
 export function PricingPage() {
+ const items = [
+  { name: "Mattress" },
+  { name: "Box Spring" },
+  { name: "Couch / Loveseat" },
+  { name: "Recliner" },
+  { name: "Dresser" },
+  { name: "Desk" },
+  { name: "Sectional" },
+  { name: "Bag of Junk" }
+];
  const [selectedCategory, setSelectedCategory] = useState(null);
   const [cart, setCart] = useState([]);
   return (
@@ -29,13 +39,13 @@ export function PricingPage() {
     "Wahser/Dryer",
     "Sectional",
     "Refrigerator"
-  ].map((item) => (
+ {items.map((item) => (
     <button
-      key={item}
+     key={item.name}
       onClick={() => setSelectedCategory(item)}
       className="border p-4 rounded-lg hover:bg-gray-100"
     >
-      {item}
+     {item.name}
     </button>
   ))}
 </div>
