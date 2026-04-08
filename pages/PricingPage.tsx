@@ -26,7 +26,7 @@ export function PricingPage() {
           </p>
 
           <h2 className="text-xl font-semibold mt-10 mb-4">
-  Most Popular Items
+  Our Top Items
 </h2>
 
 <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
