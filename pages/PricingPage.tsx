@@ -1,4 +1,12 @@
 import { useState } from 'react';
+function addToCart(option) {
+  const itemToAdd = {
+    category: selectedCategory.name,
+    option,
+  };
+
+  setCart([...cart, itemToAdd]);
+}
 
 export function PricingPage() {
  const items = [
@@ -47,13 +55,24 @@ export function PricingPage() {
     </h2>
 
     <div className="grid grid-cols-2 gap-4">
-      {(selectedCategory.options || ["Standard"]).map((option) => (
-        <button
-          key={option}
-          className="border p-4 rounded-lg hover:bg-gray-100"
-        >
-          {option}
-        </button>
+     {(selectedCategory.options || ["Standard"]).map((option) => (
+  <button
+    key={option}
+    onClick={() => addToCart(option)}
+    className="border p-4 rounded-lg hover:bg-gray-100"
+  >
+    {option}
+  </button>
+))}
+     {cart.length > 0 && (
+  <div className="mt-8">
+    <h2 className="text-xl font-semibold mb-4">Selected Items</h2>
+
+    <div className="space-y-2">
+      {cart.map((item, index) => (
+        <div key={index} className="border p-3 rounded-lg">
+          {item.category} - {item.option}
+        </div>
       ))}
     </div>
   </div>
