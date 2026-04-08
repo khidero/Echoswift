@@ -12,6 +12,7 @@ import { PricingPage } from './pages/PricingPage';
 import { CompliancePage } from './pages/CompliancePage';
 import { FaqPage } from './pages/FaqPage';
 import { ServiceAreasPage } from './pages/ServiceAreasPage';
+import { AboutPage } from './pages/AboutPage';
 function ScrollToTop() {
   const { pathname } = useLocation();
 
@@ -145,6 +146,7 @@ function App() {
           <Route path="/compliance" element={<CompliancePage />} />
         <Route path="/faq" element={<FaqPage />} />
           <Route path="/service-areas" element={<ServiceAreasPage />} />
+          <Route path="/about" element={<AboutPage />} />
           
         </Routes>
         
