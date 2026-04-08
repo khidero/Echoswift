@@ -12,6 +12,13 @@ export function AboutPage() {
         <p className="text-lg text-gray-600 text-center mb-10">
           Reliable same-day junk removal, cleanout, and hauling services across Denver Metro and surrounding areas.
         </p>
+        <p className="text-lg text-gray-600 text-center mb-4">
+  Since 2021, ALNOUMAN FADS has been delivering fast, reliable junk removal and cleanout services across the Denver Metro area.
+</p>
+
+<p className="text-gray-600 text-center mb-10">
+  Serving homeowners, businesses, and property managers with same-day availability and dependable service.
+</p>
 
         <div className="space-y-8">
 
