@@ -10,7 +10,7 @@ import { Footer } from './components/Footer';
 import { ServicePage } from './pages/ServicePage';
 import { PricingPage } from './pages/PricingPage';
 import { CompliancePage } from './pages/CompliancePage';
-import { FaqPage } from './pages/faqPage';
+import { FaqPage } from './pages/FaqPage';
 function ScrollToTop() {
   const { pathname } = useLocation();
 
@@ -142,7 +142,7 @@ function App() {
          <Route path="/pricing" element={<PricingPage />} />
           <Route path="/services/:serviceSlug" element={<ServicePage />} />
           <Route path="/compliance" element={<CompliancePage />} />
-          <Route path="/faq" element={<FaqPage />} />
+        <Route path="/faq" element={<FaqPage />} />
           
         </Routes>
         
