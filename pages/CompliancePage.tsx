@@ -10,7 +10,7 @@ export function CompliancePage() {
         </h1>
 
         <p className="text-lg text-gray-600 text-center mb-10">
-          ALNOUMAN FADS LLC operates with full compliance, safety, and responsible disposal practices across all services.
+          ALNOUMAN FADS operates with full compliance, safety standards, and responsible disposal practices across all residential and commercial services.
         </p>
 
         <div className="space-y-8">
@@ -32,7 +32,7 @@ export function CompliancePage() {
           <div className="p-6 border rounded-xl shadow">
             <h2 className="text-xl font-semibold mb-2">Mattress Handling</h2>
             <p className="text-gray-700">
-              All second-hand mattresses are handled and prepared in accordance with Colorado state regulations for sanitation and resale eligibility.
+             Usable mattresses in clean condition are donated whenever possible. All donated mattresses are inspected and sanitized in accordance with Colorado state guidelines. 
             </p>
           </div>
 
