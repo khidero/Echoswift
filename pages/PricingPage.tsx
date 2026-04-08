@@ -1,6 +1,8 @@
-import React from 'react';
+import { useState } from 'react';
 
 export function PricingPage() {
+ const [selectedCategory, setSelectedCategory] = useState(null);
+  const [cart, setCart] = useState([]);
   return (
     <div className="min-h-screen bg-white text-gray-900">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 py-10 sm:py-14">
@@ -12,6 +14,31 @@ export function PricingPage() {
           <p className="text-lg sm:text-xl text-gray-600 max-w-3xl mx-auto">
             Fast, upfront homeowner pricing based on item type, volume, and access.
           </p>
+
+          <h2 className="text-xl font-semibold mt-10 mb-4">
+  Most Popular Items
+</h2>
+
+<div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+  {[
+    "Mattress",
+    "Box Spring",
+    "Couch / Loveseat",
+    "Recliner",
+    "Dresser",
+    "Desk",
+    "Sectional",
+    "Bag of Junk"
+  ].map((item) => (
+    <button
+      key={item}
+      onClick={() => setSelectedCategory(item)}
+      className="border p-4 rounded-lg hover:bg-gray-100"
+    >
+      {item}
+    </button>
+  ))}
+</div>
 
           <div className="mt-4 space-y-2">
             <p className="text-emerald-700 font-semibold">
