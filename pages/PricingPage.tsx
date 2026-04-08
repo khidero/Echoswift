@@ -7,9 +7,9 @@ export function PricingPage() {
   { name: "Couch / Loveseat" },
   { name: "Recliner" },
   { name: "Dresser" },
-  { name: "Desk" },
+  { name: "Wahser/Dryer" },
   { name: "Sectional" },
-  { name: "Bag of Junk" }
+  { name: "Refrigerator" }
 ];
  const [selectedCategory, setSelectedCategory] = useState(null);
   const [cart, setCart] = useState([]);
