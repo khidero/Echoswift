@@ -40,6 +40,24 @@ export function PricingPage() {
     </button>
   ))}
 </div>
+         {selectedCategory && (
+  <div className="mt-8">
+    <h2 className="text-xl font-semibold mb-4">
+      What type of {selectedCategory.name}?
+    </h2>
+
+    <div className="grid grid-cols-2 gap-4">
+      {(selectedCategory.options || ["Standard"]).map((option) => (
+        <button
+          key={option}
+          className="border p-4 rounded-lg hover:bg-gray-100"
+        >
+          {option}
+        </button>
+      ))}
+    </div>
+  </div>
+)}
 
           <div className="mt-4 space-y-2">
             <p className="text-emerald-700 font-semibold">
