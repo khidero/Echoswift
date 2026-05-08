@@ -48,6 +48,15 @@ export const Hero: React.FC = () => {
             <p className="text-xl text-gray-600 mb-8 max-w-xl leading-relaxed animate-slide-up" style={{animationDelay: '0.2s'}}>
               Same-day junk removal, furniture pickup, cleanouts, and hauling services across Denver Metro. Fast, affordable, and reliable.
             </p>
+            <div className="mb-6">
+  <div className="inline-flex items-center rounded-full border border-green-200 bg-green-50 px-4 py-2 text-sm font-semibold text-green-800">
+    Colorado State-Awarded Green Business
+  </div>
+
+  <p className="mt-2 text-sm text-gray-500">
+    Recognized through Colorado’s Circular Communities Enterprise (C3) Program
+  </p>
+</div>
 
             <div className="flex flex-col sm:flex-row gap-4 mb-8 animate-slide-up" style={{animationDelay: '0.3s'}}>
               <button 
